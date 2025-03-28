@@ -25,4 +25,20 @@ git clone
 (https://github.com/thevikasmishra/digital-library-System.git
 )
 
+Challenges Faced:
+Naming issues (BookSerevice instead of BookService).
+Concurrency errors (ObjectOptimisticLockingFailureException).
+Duplicate fields (bookid and id).
+Implementing case-insensitive search by title.
+GitHub integration & deployment difficulties.
+Lack of API documentation.
+
+Future Improvements:
+Add pagination & sorting for better performance.
+Integrate Swagger for API documentation.
+Enhance error handling & validations using @Valid.
+Use DTOs instead of exposing entities directly.
+Write unit & integration tests with JUnit/Mockito.
+Deploy to cloud platforms like AWS or Render.
+
 
